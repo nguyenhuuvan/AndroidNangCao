@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.MapsActivity">
+
+    <com.arlib.floatingsearchview.FloatingSearchView
+        android:id="@+id/floating_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:floatingSearch_menu="@menu/menu_map"
+        app:floatingSearch_showSearchKey="false"
+        app:floatingSearch_searchHint="Search..."
+        app:floatingSearch_suggestionsListAnimDuration="250" />
+    <fragment
+        android:layout_below="@id/floating_search_view"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </fragment>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fablocation"
+        style="@style/OverFlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/img_279199"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        app:backgroundTint="@color/white"
+        app:fabSize="normal"
+        android:layout_marginRight="15dp" />
+    <android.support.design.widget.FloatingActionButton
+    android:id="@+id/fabcong"
+    style="@style/OverFlow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_above="@+id/fablocation"
+    android:src="@drawable/iconcong"
+    android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+    app:backgroundTint="@color/white"
+    app:fabSize="normal"
+    android:layout_marginRight="15dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabtru"
+        android:layout_above="@+id/fabcong"
+        style="@style/OverFlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icontru"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        app:backgroundTint="@color/white"
+        app:fabSize="normal"
+        android:layout_marginRight="15dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabthaydoimap"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/floating_search_view"
+        style="@style/OverFlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map"
+        app:backgroundTint="@color/white"
+        app:fabSize="normal"
+        android:layout_marginRight="15dp" />
+</RelativeLayout>

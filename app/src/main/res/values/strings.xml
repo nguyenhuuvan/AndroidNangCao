@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nguyễn Hữu Văn</string>
+    <string name="nav_header_subtitle">vannhph06247@fpt.edu.vn</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="back">Bạn có muốn thoát không?</string>
+    <string name="click">Click để thoát!</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_web_views">WebViewsActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_course">CourseActivity</string>
+    <string name="add_course_message">Bạn có muốn đăng kí khóa học này không?</string>
+    <string name="add_failed">Thêm thất bại</string>
+    <string name="delete_course_message">Bạn có muốn hủy đang kí khóa học này không?</string>
+    <string name="delete_failed">Hủy khóa học thất bại. Hãy thử lại!</string>
+    <string name="title_activity_intro_course">IntroCourseActivity</string>
+    <string name="facebook_app_id">251714628822983</string>
+    <string name="title_activity_facebook">Facebook</string>
+</resources>
